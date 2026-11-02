@@ -52,18 +52,18 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             onClick={() => setActiveTab('dashboard')}
             className="flex items-center gap-2.5 cursor-pointer shrink-0"
           >
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-white shadow-lg shadow-emerald-900/40">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-500 via-teal-400 to-cyan-400 flex items-center justify-center text-white shadow-lg shadow-emerald-900/40">
               <Boxes className="w-5 h-5 text-slate-950 font-black" />
             </div>
             <div>
               <div className="font-black text-slate-100 text-sm tracking-tight flex items-center gap-1.5">
-                <span>AgriLedger</span>
+                <span className="text-emerald-400">Mint</span><span>Condition</span>
                 <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
                   DLT
                 </span>
               </div>
               <div className="text-[10px] text-slate-400 font-mono -mt-0.5">
-                Smart Food Cold-Chain
+                Food Cold-Chain Protocol
               </div>
             </div>
           </div>

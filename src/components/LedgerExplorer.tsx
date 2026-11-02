@@ -433,7 +433,7 @@ export const LedgerExplorer: React.FC = () => {
             </div>
 
             <p className="text-xs text-slate-300 leading-relaxed">
-              In a traditional centralized database, an attacker can covertly alter temperature logs to hide an SLA penalty. Inject a fake reading into the ledger to test AgriLedger's cryptographic SHA-256 detection!
+              In a traditional centralized database, an attacker can covertly alter temperature logs to hide an SLA penalty. Inject a fake reading into the ledger to test MintCondition's cryptographic SHA-256 detection!
             </p>
 
             <div className="space-y-3 text-xs">

@@ -64,7 +64,7 @@ const AppContent: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <Boxes className="w-4 h-4 text-emerald-400" />
-              <span className="font-bold text-slate-200">AgriLedger DLT Protocol v1.4</span>
+              <span className="font-bold text-slate-200">MintCondition DLT Protocol v2.0</span>
               <span>•</span>
               <span>Smart Food Supply Chain &amp; Cold-Chain Simulator</span>
             </div>

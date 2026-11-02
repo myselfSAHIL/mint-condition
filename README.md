@@ -1,4 +1,4 @@
-# 🌾 AgriLedger DLT — Smart Food Supply Chain Monitoring System
+# 🌿 MintCondition DLT — Smart Food Supply Chain Monitoring System
 
 A responsive full-stack web application designed for cold-chain logistics and agricultural provenance monitoring across India using **Distributed Ledger Technology (DLT)**, **Proof-of-Work consensus**, **cryptographic SHA-256 hashing**, and **real-time IoT telematics**.
 

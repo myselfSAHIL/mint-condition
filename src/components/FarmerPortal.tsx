@@ -150,7 +150,7 @@ export const FarmerPortal: React.FC<{ onBatchCreated?: (batchId: string) => void
           <div>
             <h1 className="text-xl font-black text-slate-100">Farmer &amp; Producer Portal</h1>
             <p className="text-xs text-slate-300">
-              Register fresh farm harvests directly onto the immutable AgriLedger DLT
+              Register fresh farm harvests directly onto the immutable MintCondition DLT
             </p>
           </div>
         </div>

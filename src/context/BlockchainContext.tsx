@@ -240,7 +240,7 @@ export const BlockchainProvider: React.FC<{ children: React.ReactNode }> = ({ ch
         locationName: batchData.originLocation,
         coordinates: batchData.originCoords,
         temperature: batchData.initialTemp,
-        notes: batchData.notes || `Initial batch minted on AgriLedger DLT with harvest date ${batchData.harvestDate}.`,
+        notes: batchData.notes || `Initial batch minted on MintCondition DLT with harvest date ${batchData.harvestDate}.`,
         customMetadata: {
           category: batchData.category,
           quantity: batchData.quantity,
@@ -311,7 +311,7 @@ export const BlockchainProvider: React.FC<{ children: React.ReactNode }> = ({ ch
         batchId,
         type: 'SMART_CONTRACT_SLA',
         actor: {
-          name: 'AgriLedger SLA Oracle Enclave',
+          name: 'MintCondition SLA Oracle Enclave',
           role: 'auditor',
           publicKey: '0x000000ORACLE_SMART_CONTRACT_VERIFIED',
         },

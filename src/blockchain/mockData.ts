@@ -220,7 +220,7 @@ export const INITIAL_BATCHES: FoodBatch[] = [
 ];
 
 export function createPreloadedBlockchain(): Blockchain {
-  const chain = new Blockchain(2, 'AgriLedger-India-Consensus-Node');
+  const chain = new Blockchain(2, 'MintCondition-India-Consensus-Node');
 
   // Block 1: Farmer registers Batch HP Apples
   const tx1: BlockchainTransaction = {
@@ -324,7 +324,7 @@ export function createPreloadedBlockchain(): Blockchain {
     batchId: 'BATCH-AMUL-DRY-2026-442',
     type: 'SMART_CONTRACT_SLA',
     actor: {
-      name: 'AgriLedger Automated Escrow Oracle',
+      name: 'MintCondition Automated Escrow Oracle',
       role: 'auditor',
       publicKey: '0x0000SC0000ORACLE0001',
     },

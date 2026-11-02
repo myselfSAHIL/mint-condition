@@ -20,7 +20,7 @@ export class Block implements BlockData {
     transactions: BlockchainTransaction[],
     previousHash: string = '',
     difficulty: number = 2,
-    miner: string = 'AgriLedger-Node-01'
+    miner: string = 'MintCondition-Node-01'
   ) {
     this.index = index;
     this.timestamp = timestamp;

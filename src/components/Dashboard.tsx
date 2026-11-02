@@ -44,7 +44,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
         <div className="space-y-2">
           <div className="flex items-center gap-2">
             <span className="px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold font-mono">
-              ● AGRILEDGER MAINNET SIMULATOR
+              ● MINTCONDITION MAINNET SIMULATOR
             </span>
             <span className="text-xs text-slate-400">Consensus: Proof-of-Work (SHA-256)</span>
           </div>

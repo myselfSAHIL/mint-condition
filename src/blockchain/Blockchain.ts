@@ -14,7 +14,7 @@ export class Blockchain {
   public miningReward: number = 0;
   public nodeIdentifier: string;
 
-  constructor(difficulty: number = 2, nodeName: string = 'AgriLedger-Genesis-India') {
+  constructor(difficulty: number = 2, nodeName: string = 'MintCondition-Genesis-India') {
     this.chain = [];
     this.difficulty = difficulty;
     this.pendingTransactions = [];
@@ -28,12 +28,12 @@ export class Blockchain {
       batchId: 'GENESIS-ROOT',
       type: 'BATCH_CREATION',
       actor: {
-        name: 'Ministry of Agriculture & AgriLedger Network',
+        name: 'Ministry of Agriculture & MintCondition Network',
         role: 'auditor',
         publicKey: '0x0000000000000000000000000000000000000000',
       },
       payload: {
-        notes: 'AgriLedger India Smart Food Supply Chain Protocol Genesis Block initiated.',
+        notes: 'MintCondition India Smart Food Supply Chain Protocol Genesis Block initiated.',
         locationName: 'National Agri-DLT Node, New Delhi',
         coordinates: [28.6139, 77.2090],
       },
@@ -70,7 +70,7 @@ export class Blockchain {
   /**
    * Mines a new block containing pending transactions or provided transactions
    */
-  public minePendingTransactions(minerAddress: string = 'AgriLedger-Miner-01'): Block {
+  public minePendingTransactions(minerAddress: string = 'MintCondition-Miner-01'): Block {
     const previousBlock = this.getLatestBlock();
     const newBlock = new Block(
       this.chain.length,
@@ -92,7 +92,7 @@ export class Blockchain {
    */
   public createAndMineBlock(
     transactions: BlockchainTransaction[],
-    minerAddress: string = 'AgriLedger-Node-Transit'
+    minerAddress: string = 'MintCondition-Node-Transit'
   ): Block {
     const previousBlock = this.getLatestBlock();
     const newBlock = new Block(
